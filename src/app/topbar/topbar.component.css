@@ -1,0 +1,15 @@
+p{
+    display: inline-block;
+    width: 50%;
+}
+p:nth-child(1){
+    text-align: left;
+}
+p:nth-child(2){
+    text-align: right;
+}
+
+.uploadVideo{
+    display: inline-block;
+    text-align: right;
+}
