@@ -8,6 +8,7 @@
 .controlContainer{
     position: absolute;
     width: 100%;
+    min-width: 1200px;
     top: 50%;
     display: flex;
     justify-content: space-between;
