@@ -1,0 +1,58 @@
+.root{
+    /* height: 500px; */
+    margin: 0 auto;
+    position: relative;
+    /* height: 500px; */
+}
+.scale-carousel{
+    display: inline-block;
+    min-width: 1200px;
+    width: 1200px;
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.scale-carousel-item{
+    position: absolute;
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    left:400px;
+    background-color: aqua;
+    border: 1px solid red;
+    transition: transform 2s,left 2s,z-index 1.5s;
+}
+
+.donghua-left{
+    /* position: relative; */
+    z-index: 10;
+    left:100px;
+    transform: scale(0.8,0.8) ;
+}
+.donghua-normal{
+    /* position: relative; */
+    z-index: 20;
+    left:400px;
+    transform: scale(1,1) ;
+}
+.donghua-right{
+    /* position: relative; */
+    z-index: 10;
+    left:700px;
+    transform: scale(0.8,0.8) ;
+    
+}
+
+.controlContainer{
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.controlContainer i{
+    font-size: 70px;
+    /* color: #fff; */
+}
