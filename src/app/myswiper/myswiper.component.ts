@@ -13,10 +13,7 @@ import { ElementRef } from '@angular/core';
 export class MyswiperComponent implements OnInit,AfterViewInit{
   constructor(public element: ElementRef) {}
   ngAfterViewInit(): void {
-    // console.log(this.carousel);
-    // console.log(this.element.nativeElement.querySelector('#carousel').goTo(2));
-    console.log(this.carousel);
-
+  
   }
   array = [ "../../assets/imgs/banner1.jpg","../../assets/imgs/banner2.jpg","../../assets/imgs/banner3.jpg"];
   // array =[1,2,3,4];

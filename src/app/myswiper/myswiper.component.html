@@ -7,7 +7,7 @@
 
 </div> -->
 <div class="root">
-  <nz-carousel #carousel [nzEffect]="effect"  >
+  <nz-carousel #carousel [nzEffect]="effect"  nzAutoPlay >
     <div class="go" nz-carousel-content *ngFor="let index of array">
       <div><img src="{{index}}"></div>
     </div>
