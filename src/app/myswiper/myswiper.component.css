@@ -5,18 +5,28 @@
 .root{
     position: relative;
 }
+
 .controlContainer{
     position: absolute;
     width: 100%;
     min-width: 1200px;
-    top: 50%;
-    display: flex;
-    justify-content: space-between;
+    top: 45%;
+    height: 70px;
+    /* display: -ms-flex;
+    display: flex; */
+    
+    /* justify-content: space-between; */
+    text-align:justify 
 
 }
-.controlContainer i{
-    font-size: 70px;
+.controlContainer span{
+    cursor: pointer;
     color: #fff;
+    font-size: 70px;
+    position: absolute;
+}
+.controlContainer span:nth-child(2){
+    right: 0;
 }
 nz-carousel{
     height: 600px;

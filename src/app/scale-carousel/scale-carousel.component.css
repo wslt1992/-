@@ -8,7 +8,7 @@
     display: inline-block;
     min-width: 1200px;
     width: 1200px;
-    height: 600px;
+    height: 820px;
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
@@ -16,12 +16,13 @@
 .scale-carousel-item{
     position: absolute;
     display: inline-block;
-    height: 400px;
-    width: 400px;
+    height: 620px;
+    width: 460px;
     left:400px;
-    background-color: aqua;
-    border: 1px solid red;
-    transition: transform 2s,left 2s,z-index 1.5s;
+    background-color: rgba(120,123,127,0.4);
+    box-shadow: 0px 0 12px rgb(120,123,127);
+    /* border: 1px solid red; */
+    transition: transform 1.5s,left 1.5s,z-index 1.5s;
 }
 
 .donghua-left{
@@ -33,13 +34,13 @@
 .donghua-normal{
     /* position: relative; */
     z-index: 20;
-    left:400px;
+    left:370px;
     transform: scale(1,1) ;
 }
 .donghua-right{
     /* position: relative; */
     z-index: 10;
-    left:700px;
+    left:640px;
     transform: scale(0.8,0.8) ;
     
 }
@@ -48,11 +49,59 @@
     position: absolute;
     width: 100%;
     top: 45%;
-    display: flex;
-    justify-content: space-between;
+    height: 105px;
+    /* display: -ms-flex;
+    display: flex; */
+    
+    /* justify-content: space-between; */
+    text-align:justify 
 
 }
-.controlContainer i{
+.controlContainer span{
+    cursor: pointer;
     font-size: 70px;
+    position: absolute;
     /* color: #fff; */
+}
+.controlContainer span:nth-child(2){
+    right: 0;
+    /* color: #fff; */
+}
+
+.business-card{
+    height: 360px;
+    box-sizing: border-box;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    background-color: #ffffff;
+}
+.business-card img{
+    margin-top: 50px;
+    width: 164px;
+    height: 164px;
+    border-radius: 50%;
+}
+.business-card h6{
+    margin: 0;
+    font-size: 24px;
+    color: #0099ff;
+}
+.business-card h2{
+    margin-top: 20px;
+    font-size: 24px;
+    color: #0099ff;
+}
+
+.business-card-detail{
+    padding: 20px;
+    height: 260px;
+    background-color: #0099ff;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.business-card-detail p{
+    text-indent:2em;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: left;
 }

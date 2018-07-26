@@ -27,12 +27,14 @@ export class ScaleCarouselComponent implements OnInit,AfterViewInit {
   }
   pre(){
     this.donghuazhixing("left");
+    console.log(1);
   }
   next(){
     // console.log("next");
     // this.items[0].classList.add("donghua-normal");
     // this.items[0].classList.remove( this.items[0].classList.item(0));
       this.donghuazhixing("right");
+      console.log(2);
     
     // this.items[1].classList.add("donghua-normal");
     // this.items[2].classList.add("donghua-right");
