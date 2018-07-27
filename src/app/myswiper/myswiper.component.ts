@@ -15,7 +15,7 @@ export class MyswiperComponent implements OnInit,AfterViewInit{
   ngAfterViewInit(): void {
   
   }
-  array = [ "../../assets/imgs/banner1.jpg","../../assets/imgs/banner2.jpg","../../assets/imgs/banner3.jpg"];
+  array = [ "assets/imgs/banner1.jpg","assets/imgs/banner2.jpg","assets/imgs/banner3.jpg"];
   // array =[1,2,3,4];
   effect = 'scrollx';
   // NzCarouselComponent 
