@@ -15,9 +15,9 @@ export class NavComponent implements OnInit {
   active($event) {
     let el = $event.target;
     
-    let parent = el.parentNode;
+    let parent = el.parentNode.parentNode;
     for (const element of parent.children) {
-      element.classList.remove("active");
+      element.children[0].classList.remove("active");
     }
     el.classList.add("active");
   }
